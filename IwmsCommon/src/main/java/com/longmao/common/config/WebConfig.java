@@ -1,11 +1,12 @@
 package com.longmao.common.config;
 
 
-
 import com.longmao.common.base.JwtInterceptor;
 import com.longmao.common.base.MyInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -33,5 +34,9 @@ public class WebConfig implements WebMvcConfigurer {
 //        registry.addResourceHandler("/picture/**").addResourceLocations("file:C:/Users/Administrator/Desktop/");
 //    }
 
+    @Bean
+    public BCryptPasswordEncoder bcryptPasswordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
 
 }

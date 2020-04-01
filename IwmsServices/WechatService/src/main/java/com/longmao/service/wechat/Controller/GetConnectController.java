@@ -1,22 +1,22 @@
 package com.longmao.service.wechat.Controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+//import com.longmao.common.util.Response;
+import com.longmao.common.util.Response;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @Author: wwivan
  * @Date: 2020/4/1日10:19
  * @Description:
  */
-@RequestMapping("/")
+@RequestMapping("/connect")
 @RestController
+@CrossOrigin
 public class GetConnectController {
-    @GetMapping("")
+    @GetMapping("/get")
     @ResponseBody
-    public String get(){
-        return "hello wechat";
+    public Response get(){
+        return Response.success("请求成功");
     }
 
 }

@@ -14,6 +14,7 @@
         <module>IwmsServices</module>
         <module>IwmsServiceApi</module>
         <module>IwmsCommon</module>
+        <module>IwmsSecurity</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

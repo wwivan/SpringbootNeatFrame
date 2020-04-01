@@ -11,6 +11,9 @@
 
     <artifactId>IwmsServiceApi</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>ExampleApi</module>
+    </modules>
 
 
 </project>
