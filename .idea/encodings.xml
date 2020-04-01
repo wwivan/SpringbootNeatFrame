@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IwmsCommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IwmsEureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IwmsGateWay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IwmsGateWay/CommonGateWay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IwmsGateWay/WechatGateWay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IwmsServiceApi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IwmsServices" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IwmsServices/WechatService" charset="UTF-8" />
+  </component>
+</project>
