@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CommonGateWay" />
-        <module name="IwmsSecurity" />
-        <module name="IwmsCommon" />
-        <module name="ExampleApi" />
-        <module name="IwmsEureka" />
+        <module name="ExampleService" />
         <module name="WechatService" />
+        <module name="ExampleApi" />
+        <module name="IwmsSecurity" />
+        <module name="IwmsEureka" />
+        <module name="IwmsCommon" />
+        <module name="IwmsDataBase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,7 +24,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CommonGateWay" options="-parameters" />
       <module name="ExampleApi" options="-parameters" />
+      <module name="ExampleService" options="-parameters" />
       <module name="IwmsCommon" options="-parameters" />
+      <module name="IwmsDataBase" options="-parameters" />
       <module name="IwmsEureka" options="-parameters" />
       <module name="IwmsGateWay" options="-parameters" />
       <module name="IwmsSecurity" options="-parameters" />

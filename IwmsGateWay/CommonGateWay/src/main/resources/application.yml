@@ -17,6 +17,12 @@ spring:
             - Path=/api/wechat/**
           filters:
             - StripPrefix=1
+        - id: iwms_example_route
+          uri: lb://example
+          predicates:
+            - Path=/api/example/**
+          filters:
+            - StripPrefix=1
   application:
     name: gateway_common
 
