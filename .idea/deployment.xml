@@ -5,8 +5,7 @@
       <paths name="腾讯云">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$/IwmsServiceApi/ExampleApi" web="/" />
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/iwms/iwmsServer" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

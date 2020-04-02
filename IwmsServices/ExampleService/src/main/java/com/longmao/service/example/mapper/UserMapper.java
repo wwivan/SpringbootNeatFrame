@@ -20,7 +20,7 @@ public interface UserMapper {
 
     @Select("select * from user where id=#{id}")
     @Results({
-            @Result(property = "department", column = "deptId", one = @One(select = "com.wwivan.mapper.DepartmentMapper.getDeptById"))
+            @Result(property = "department", column = "deptId", one = @One(select = "com.longmao.service.example.mapper.DepartmentMapper.getDeptById"))
     })
     public User findByIdWithDept(Integer id);
     @Select("select * from user where id=#{id}")
