@@ -1,4 +1,4 @@
-package com.longmao.datebase.config;
+package com.longmao.service.example.config;
 
 import org.apache.ibatis.session.Configuration;
 import org.mybatis.spring.boot.autoconfigure.ConfigurationCustomizer;

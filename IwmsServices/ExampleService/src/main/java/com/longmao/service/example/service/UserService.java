@@ -2,7 +2,7 @@ package com.longmao.service.example.service;
 
 
 import com.longmao.serviceApi.example.entity.User;
-import com.longmao.serviceApi.example.mapper.UserMapper;
+import com.longmao.service.example.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;

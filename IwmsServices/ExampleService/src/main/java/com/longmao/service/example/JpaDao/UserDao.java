@@ -1,4 +1,4 @@
-package com.longmao.serviceApi.example.JpaDao;
+package com.longmao.service.example.JpaDao;
 
 /**
  * @Author: wwivan

@@ -1,4 +1,4 @@
-package com.longmao.serviceApi.example.mapper;
+package com.longmao.service.example.mapper;
 
 
 import com.longmao.serviceApi.example.entity.Department;
