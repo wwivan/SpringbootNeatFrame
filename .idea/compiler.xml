@@ -8,16 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CommonGateWay" />
         <module name="ExampleService" />
-        <module name="WechatService" />
         <module name="IwmsCommon" />
-        <module name="IwmsSecurity" />
-        <module name="IwmsEureka" />
         <module name="ExampleApi" />
         <module name="IwmsDataBase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CommonGateWay" target="1.8" />
+      <module name="IwmsEureka" target="1.8" />
+      <module name="IwmsGateWay" target="1.8" />
+      <module name="IwmsSecurity" target="1.8" />
       <module name="WechatGateWay" target="1.8" />
+      <module name="WechatService" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
