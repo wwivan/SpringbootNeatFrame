@@ -28,3 +28,15 @@ eureka:
 feign:
   hystrix:
     enabled: true
+#logging:
+#  pattern:
+#      #格式化，只能输出日期和内容
+#    console: "%d - %msg%n"
+#    #        配置日志输出位置
+#  path: D:/
+#    #      配置日志输出文件 ，指定文件名
+logging:
+  file: LogManage/ExampleService/exaampleService.log
+  pattern:
+    console: "%d - %msg%n"
+#  file: D:/test.log

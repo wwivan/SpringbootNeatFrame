@@ -9,10 +9,10 @@
         <module name="CommonGateWay" />
         <module name="ExampleService" />
         <module name="WechatService" />
-        <module name="ExampleApi" />
+        <module name="IwmsCommon" />
         <module name="IwmsSecurity" />
         <module name="IwmsEureka" />
-        <module name="IwmsCommon" />
+        <module name="ExampleApi" />
         <module name="IwmsDataBase" />
       </profile>
     </annotationProcessing>
